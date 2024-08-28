@@ -2,9 +2,8 @@ import React from "react";
 import { TbPigMoney } from "react-icons/tb";
 import { FaReact, FaLaptopMedical } from "react-icons/fa";
 import { LuGraduationCap, LuPlaneTakeoff } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import portfolio from "@/public/portfolio.png";
+import pcb from "@/public/pcb.png";
 
 export const links = [
   {
@@ -83,25 +82,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AgriCluster",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A long-range, low-powered IOT device, utilising LoRa technology to relay soil parameters in agricultural settings.",
+    tags: ["C", "KiCad EDA", "ESP32", "LoRa", "SMD Soldering"],
+    imageUrl: pcb,
   },
   {
-    title: "rmtDev",
+    title: "Personal Website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "The website you're looking at now! Developed using Next.js 13 and deployed using Vercel.",
+    tags: ["React", "Next.js", "Framer Motion", "Tailwind", "TypeScript"],
+    imageUrl: portfolio,
   },
 ] as const;
 
